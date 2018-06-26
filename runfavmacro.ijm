@@ -1,0 +1,1 @@
+runMacro("D:/Fiji.app/macros/savekymos.ijm");

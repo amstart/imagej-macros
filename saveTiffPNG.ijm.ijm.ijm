@@ -1,0 +1,3 @@
+run("Save");
+run ("Jpeg...");
+
