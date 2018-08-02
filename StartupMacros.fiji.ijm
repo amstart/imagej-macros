@@ -29,6 +29,11 @@ var floodType =  "8-connected"; //call("ij.Prefs.get", "startup.flood", "8-conne
 
 // macro "AutoRunAndHide" {}
 
+  macro "Small [1]" {call("ij.gui.Toolbar.setBrushSize", 1);} 
+  macro "Medium [2]" {call("ij.gui.Toolbar.setBrushSize", 5);} 
+  macro "Large [3]" {call("ij.gui.Toolbar.setBrushSize", 8);} 
+  macro "Largest [4]" {call("ij.gui.Toolbar.setBrushSize", 15);} 
+
 macro "favmacro [g]" { 
 		runMacro("runfavmacro.ijm");
 } 
