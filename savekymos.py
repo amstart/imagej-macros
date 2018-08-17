@@ -25,11 +25,12 @@ gd = GenericDialog("suffix");
 gd.addStringField("suffix:","");
 gd.showDialog();
 suffix = gd.getNextString();
-ync = YesNoCancelDialog(None, "intensity (yes) or coverage (no or cancel)", "intensity (yes) or coverage (no or cancel)");
-if ync.yesPressed():
-	IJ.saveAs("Tiff", path + "\\prepared\\" + name + suffix + ".tif");
-else:
-	IJ.saveAs("Tiff", path + "\\coverage\\" + name + suffix + ".tif");
+#ync = YesNoCancelDialog(None, "intensity (yes) or coverage (no or cancel)", "intensity (yes) or coverage (no or cancel)");
+#if ync.yesPressed():
+IJ.saveAs("Tiff", path + "\\prepared\\" + name + suffix + ".tif");
+#rm.runCommand("Delete")
+#else:
+	#IJ.saveAs("Tiff", path + "\\coverage\\" + name + suffix + ".tif");
 #IJ.saveAs("Tiff", path + "\\MTs\\prepared\\" + name + suffix + ".tif");
 #IJ.run("Undo");
 #ij.RUN("mAKE iNVERSE");
