@@ -1,1 +1,1 @@
-runMacro("D:/Fiji.app/macros/savekymos.ijm");
+runMacro("C:/tools/Fiji.app/macros/savekymos.ijm");

@@ -1,2 +1,2 @@
-script = File.openAsString("D:/Fiji.app/macros/savekymos.py");
+script = File.openAsString("C:/tools/Fiji.app/macros/savekymos.py");
 eval("python", script); 
